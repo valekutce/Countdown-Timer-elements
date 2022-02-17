@@ -132,7 +132,7 @@ function countDown() {
 
     if (getDays === '' && getHours === '' && getMinutes === '' && getSeconds === '') {
         // if input area is empty then show alert
-        alert('Please input time for start countdown');
+        alert('Пожалуйста, введите время для начала обратного отсчета');
     } else {
         // set properties for reset button
         counterBtn.innerText = "Reset";
